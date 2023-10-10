@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # portfolio-vue-router-app
 
 ## Project setup
@@ -17,3 +18,6 @@ npm run build
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+=======
+# Website-Vue-Router
+>>>>>>> 3c110498473e74165ffdb30069c9d44ce1405378
