@@ -5,7 +5,7 @@
       </div>
       <section id="portfolio">
         <div class="portfolio-item">
-          <p class="projectP">Check out my <a class="link" href="https://github.com/cerovina">GitHub</a></p>
+          <p class="projectP"><span class="yellow">Check out my</span> <a class="link" href="https://github.com/cerovina">GitHub</a></p>
         </div>
         <div class="grid-container">
           <div class="grid-item">
@@ -58,7 +58,8 @@
   margin-bottom: 75px;
   font-family: "Electro";
   color: white;
-  font-size: 30px;
+  font-size: 25px;
+  font-style: italic;
 }
 
 </style>

@@ -15,8 +15,13 @@ body {
     background-clip: text;
   }
 
+  .yellow {
+    color: #EBCB8B;
+    font-style: italic;
+  }
+
   .img {
-    max-width: 25%;
+    max-width: 300px;
     padding-top: 15px;
     padding-bottom: 15px;
   }
@@ -26,7 +31,7 @@ body {
   }
 
   p {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   h1, h2 {

@@ -1,10 +1,19 @@
 <template>
-  <div class="home">
-    <img class="img" src="@/assets/ncnord.jpg"> 
+  <div class="container">
+    <div class="home">
+      <img class="img" src="@/assets/ncnord.jpg"> 
       <h1 class="title">Nikola Cerovina</h1>
-      <h2>Front-End Developer</h2>
+      <h2 class="yellow">Front-End Developer</h2>
+    </div>
+    <div class="aboutMe">
+      <p>👋 Hello! I'm Nikola. </p>
+      <p>🚀 Proficient in HTML, CSS, and <span class="grad">JavaScript</span>. Experienced in Vue and React.</p>
+      <p>🎨 Familiar with design tools like Figma and <span class="grad">creative</span> coding using p5.js.</p>
+      <p>🌱 <span class="grad">Passionate</span> about web development and expanding my skills in the field.</p>
+    </div>
   </div>
 </template>
+
 
 <script>
 
@@ -20,12 +29,8 @@ export default {
 
 .title {
   margin-top: 15px;
-  margin-bottom: 25px;
+  margin-bottom: 0px;
   font-size: 45px;
-}
-
-h2 {
-  font-style: italic;
 }
 
 </style>
