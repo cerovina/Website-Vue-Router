@@ -1,0 +1,63 @@
+body {
+    background-color: black;
+    animation: fade-in 2s ease-in-out;
+}
+
+@font-face {
+    font-family: "Electro";
+    src: url("@/assets/Electrolize-Regular.ttf") format("truetype")
+  }
+
+  .grad {
+    background: linear-gradient(to right, white, #81A2C1, white);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+
+  .img {
+    max-width: 25%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  p, nav, h1, h2 {
+    font-family: "Electro";
+  }
+
+  p {
+    font-size: 30px;
+  }
+
+  h1, h2 {
+    margin: 10px;
+  }
+
+  h1 {
+    font-size: 45px;
+    color: white;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: linear-gradient(to right, black, #2E3440, black);
+  }
+
+  .link {
+    color: white;
+    transition: color 0.3s;
+  }
+  
+  .link:hover {
+    color: #EBCB8B;
+  }
+
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
