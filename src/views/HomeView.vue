@@ -3,7 +3,7 @@
     <div class="home">
       <img class="img" src="@/assets/ncnord.jpg"> 
       <h1 class="title">Nikola Cerovina</h1>
-      <h2 class="yellow">Front-End Developer</h2>
+      <h2 class="yellow dev">Front-End Developer</h2>
     </div>
     <div class="aboutMe">
       <p>👋 Hello! I'm Nikola. </p>
@@ -31,6 +31,10 @@ export default {
   margin-top: 15px;
   margin-bottom: 0px;
   font-size: 45px;
+}
+
+.dev {
+  margin-bottom: 50px;
 }
 
 </style>
