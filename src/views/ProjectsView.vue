@@ -55,7 +55,7 @@
 
 .projectP {
   margin-top: 35px;
-  margin-bottom: 75px;
+  margin-bottom: 70px;
   font-family: "Electro";
   color: white;
   font-size: 25px;

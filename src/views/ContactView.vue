@@ -10,4 +10,9 @@
       </div>
     </div>
   </template>
-  
+
+  <style scoped>
+    .end {
+      margin-top: 35px;
+    }
+  </style>

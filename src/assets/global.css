@@ -26,6 +26,10 @@ body {
     padding-bottom: 15px;
   }
 
+  nav {
+    margin-top: 15px;
+  }
+
   p, nav, h1, h2 {
     font-family: "Electro";
   }
