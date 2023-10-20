@@ -9,7 +9,9 @@
       <p>
         🚀 Proficient in HTML, CSS, and <span class="grad">JavaScript</span>. Experienced in Vue and React.
         <br>
+        <br>
         🎨 Familiar with <span class="grad">design tools</span> like Figma and creative coding using p5.js.
+        <br>
         <br>
         🌱 <span class="grad">Passionate</span> about web development and expanding my skills in the field.
       </p>
