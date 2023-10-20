@@ -9,12 +9,12 @@
         </div>
         <div class="grid-container">
           <div class="grid-item">
-            <iframe src="https://web-form-vue-lake.vercel.app/" width="75%" height="600"></iframe>
+            <img class="img1" src="@/assets/formpicture.png" alt="Vue Form">
             <br>
             <a class="link" href="https://web-form-vue-lake.vercel.app/">Web Form app (Vue)</a>
           </div>
           <div class="grid-item">
-            <iframe src="https://cerovina.github.io/Weather-Yeti/" width="75%" height="600"></iframe>
+            <img class="img1" src="@/assets/yetiii.png" alt="Weather Yeti">
             <br>
             <a class="link" href="https://cerovina.github.io/Weather-Yeti/">Weather Yeti app (React)</a>
           </div>
