@@ -46,7 +46,7 @@ p {
 /* Media query for laptops and larger screens */
 @media (min-width: 768px) {
   p {
-    width: 600px; /* Set the width to 600px on laptops */
+    width: 500px; /* Set the width to 600px on laptops */
   }
 }
 
