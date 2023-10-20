@@ -6,10 +6,14 @@
       <h2 class="yellow dev">Front-End Developer</h2>
     </div>
     <div class="aboutMe">
-      <p>👋 Hello! I'm Nikola. </p>
-      <p>🚀 Proficient in HTML, CSS, and <span class="grad">JavaScript</span>. Experienced in Vue and React.</p>
-      <p>🎨 Familiar with design tools like Figma and <span class="grad">creative</span> coding using p5.js.</p>
-      <p>🌱 <span class="grad">Passionate</span> about web development and expanding my skills in the field.</p>
+      <p>Hello! I'm Nikola.
+        <br>
+        🚀 Proficient in HTML, CSS, and <span class="grad">JavaScript</span>. Experienced in Vue and React.
+        <br>
+        🎨 Familiar with design tools like Figma and <span class="grad">creative</span> coding using p5.js.
+        <br>
+        🌱 <span class="grad">Passionate</span> about web development and expanding my skills in the field.
+      </p>
     </div>
   </div>
 </template>
