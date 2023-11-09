@@ -17,17 +17,17 @@
           <div class="grid-item">
             <img class="img1" src="@/assets/formpicture.png" alt="Web Form">
             <br>
-            <a class="link" href="https://web-form-vue-lake.vercel.app/">Web Form (Vue.js)</a>
+            <a class="link" href="https://web-form-vue-lake.vercel.app/">Web Form (Vue)</a>
           </div>
           <div class="grid-item">
             <img class="img1" src="@/assets/yetiii.png" alt="Weather Yeti">
             <br>
-            <a class="link" href="https://cerovina.github.io/Weather-Yeti/">Weather Yeti (React.js)</a>
+            <a class="link" href="https://cerovina.github.io/Weather-Yeti/">Weather Yeti (React)</a>
           </div>
           <div class="grid-item">
             <img class="img1" src="@/assets/bugs.png" alt="Space Shooter">
             <br>
-            <a class="link" href="https://cerovina.github.io/Grim-Shooter/">Grim Shooter (p5.js)</a>
+            <a class="link" href="https://cerovina.github.io/Grim-Shooter/">Grim Shooter (p5)</a>
           </div>
         </div>
         
