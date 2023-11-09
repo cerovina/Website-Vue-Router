@@ -17,7 +17,7 @@
           <div class="grid-item">
             <img class="img1" src="@/assets/formpicture.png" alt="Web Form">
             <br>
-            <a class="link" href="https://web-form-vue-lake.vercel.app/">Web Form app (Vue)</a>
+            <a class="link" href="https://web-form-vue-lake.vercel.app/">Form Validation app (Vue)</a>
           </div>
           <div class="grid-item">
             <img class="img1" src="@/assets/yetiii.png" alt="Weather Yeti">
