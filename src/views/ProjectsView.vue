@@ -7,9 +7,15 @@
         <div class="portfolio-item">
           <p class="projectP"><span class="yellow">Check out my</span> <a class="link" href="https://github.com/cerovina">GitHub</a></p>
         </div>
+
         <div class="grid-container">
           <div class="grid-item">
-            <img class="img1" src="@/assets/formpicture.png" alt="Vue Form">
+            <img class="img1" src="@/assets/store.png" alt="Online Store">
+            <br>
+            <a class="link" href="https://cerovina.github.io/E-commerce-Project---Board-Game-Store/">Board Game Store (Vanilla JS)</a>
+          </div>
+          <div class="grid-item">
+            <img class="img1" src="@/assets/formpicture.png" alt="Web Form">
             <br>
             <a class="link" href="https://web-form-vue-lake.vercel.app/">Web Form app (Vue)</a>
           </div>
@@ -18,7 +24,13 @@
             <br>
             <a class="link" href="https://cerovina.github.io/Weather-Yeti/">Weather Yeti app (React)</a>
           </div>
+          <div class="grid-item">
+            <img class="img1" src="@/assets/bugs.png" alt="Space Shooter">
+            <br>
+            <a class="link" href="https://cerovina.github.io/Grim-Shooter/">Grim Shooter app (p5.js)</a>
+          </div>
         </div>
+        
       </section>
     </div>
   </template>
