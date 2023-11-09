@@ -17,12 +17,12 @@
           <div class="grid-item">
             <img class="img1" src="@/assets/formpicture.png" alt="Web Form">
             <br>
-            <a class="link" href="https://web-form-vue-lake.vercel.app/">Form Validation app (Vue)</a>
+            <a class="link" href="https://web-form-vue-lake.vercel.app/">Form Validation app (Vue.js)</a>
           </div>
           <div class="grid-item">
             <img class="img1" src="@/assets/yetiii.png" alt="Weather Yeti">
             <br>
-            <a class="link" href="https://cerovina.github.io/Weather-Yeti/">Weather Yeti app (React)</a>
+            <a class="link" href="https://cerovina.github.io/Weather-Yeti/">Weather Yeti app (React.js)</a>
           </div>
           <div class="grid-item">
             <img class="img1" src="@/assets/bugs.png" alt="Space Shooter">
