@@ -12,22 +12,22 @@
           <div class="grid-item">
             <img class="img1" src="@/assets/store.png" alt="Online Store">
             <br>
-            <a class="link" href="https://cerovina.github.io/E-commerce-Project---Board-Game-Store/">Board Game Store (Vanilla JS)</a>
+            <a class="link" href="https://cerovina.github.io/E-commerce-Project---Board-Game-Store/">Online Store app (Vanilla JS)</a>
           </div>
           <div class="grid-item">
             <img class="img1" src="@/assets/formpicture.png" alt="Web Form">
             <br>
-            <a class="link" href="https://web-form-vue-lake.vercel.app/">Form Validation (Vue.js)</a>
+            <a class="link" href="https://web-form-vue-lake.vercel.app/">Form Validation app (Vue.js)</a>
           </div>
           <div class="grid-item">
             <img class="img1" src="@/assets/yetiii.png" alt="Weather Yeti">
             <br>
-            <a class="link" href="https://cerovina.github.io/Weather-Yeti/">Weather Yeti (React.js)</a>
+            <a class="link" href="https://cerovina.github.io/Weather-Yeti/">Weather Yeti app (React.js)</a>
           </div>
           <div class="grid-item">
             <img class="img1" src="@/assets/bugs.png" alt="Space Shooter">
             <br>
-            <a class="link" href="https://cerovina.github.io/Grim-Shooter/">Grim Shooter (p5.js)</a>
+            <a class="link" href="https://cerovina.github.io/Grim-Shooter/">Grim Shooter app (p5.js)</a>
           </div>
         </div>
         
