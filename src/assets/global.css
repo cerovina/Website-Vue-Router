@@ -69,7 +69,7 @@ p {
     margin-top: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
-    background: linear-gradient(to right, #0F0225, #0F0225,  black, #0F0225, #0F0225);
+    background: linear-gradient(to right, #0F0225,  black, #0F0225);
   }
 
   .link {
