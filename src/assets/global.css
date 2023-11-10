@@ -1,4 +1,7 @@
 body {
+    background-image: url("@/assets/back.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
     background-color: #0F0225;
     animation: fade-in 2s ease-in-out;
 }

@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="projectsWrap">
       <div class="projects">
         <h1>My Projects</h1>
       </div>
@@ -36,6 +36,10 @@
   </template>
 
 <style scoped>
+
+.projectsWrap {
+  background-color: #0F0225;
+}
 
 .img1 {
   width: 75%;

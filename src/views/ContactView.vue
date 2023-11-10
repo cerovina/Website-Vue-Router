@@ -1,22 +1,35 @@
 <template>
-    <div>
+  <div class="contactWrap">
       <div class="contact">
         <h1>Contact</h1>
-      </div>
+          </div>
+    <section>
       <div class="end">
         <p>
-          📧<span class="yellow"> Email:</span><br>cerovina1997@gmail.com
+        📧<span class="yellow"> Email:</span><br>cerovina1997@gmail.com
           <br>
           <br>
-          🌐<span class="yellow"> LinkedIn:</span><br><a class="link" href="https://linkedin.com/in/cerovina">Let's connect!</a>
+        🌐<span class="yellow"> LinkedIn:</span><br><a class="link" href="https://linkedin.com/in/cerovina">Let's connect!</a>
           <br>       
         </p>
       </div>
-    </div>
-  </template>
+      <div class="grid-item">
+            <img class="img2" src="@/assets/mailbox.png" alt="Mailbox Image">
+        </div>
+    </section>
+  </div>
+</template>
 
   <style scoped>
-    .end {
+  .contactWrap {
+  background-color: #0F0225;
+}
+  .end {
       margin-top: 35px;
     }
+
+  .img2 {
+    margin-top: 35px;
+    width: 30%;
+  }
   </style>
