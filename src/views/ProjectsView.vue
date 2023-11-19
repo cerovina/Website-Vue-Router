@@ -10,9 +10,9 @@
 
         <div class="grid-container">
           <div class="grid-item">
-            <img class="img1" src="@/assets/store.png" alt="Online Store">
+            <img class="img1" src="@/assets/taskStore.png" alt="Online Store">
             <br>
-            <a class="link" href="https://cerovina.github.io/E-commerce-Project---Board-Game-Store/">Board Game Store</a>
+            <a class="link" href="https://cerovina.github.io/Task-Online-Store/">Online Store</a>
           </div>
           <div class="grid-item">
             <img class="img1" src="@/assets/formpicture.png" alt="Web Form">
