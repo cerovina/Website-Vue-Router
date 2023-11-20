@@ -51,6 +51,12 @@ p {
 
 /* Media query for mobile devices */
 @media (max-width: 767px) {
+  .aboutMe p {
+    width: 75%;
+  }
+}
+
+@media (max-width: 767px) {
   .wrapper {
     flex-direction: column; /* Stack items vertically on small screens */
   }
@@ -143,9 +149,5 @@ h1, h2 {
   .wrapper {
     min-width: 75%;
     max-width: 100%;
-  }
-
-  p {
-    font-size: 20px;
   }
 }

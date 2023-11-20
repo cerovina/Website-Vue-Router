@@ -63,6 +63,12 @@ export default {
   font-size: 45px;
 }
 
+@media (max-width: 767px) {
+  .aboutMe p {
+    width: 75%;
+  }
+}
+
 .moving-title-container {
   position: relative;
   height: 50px; /* Adjust the height as needed */
