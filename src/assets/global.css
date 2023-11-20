@@ -1,41 +1,35 @@
 body {
-    background-image: url("@/assets/pic123.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-color: #0F0225;
-    animation: fade-in 2s ease-in-out;
+  background-color: #0F0225;
+  animation: fade-in 3s;
 }
 
 @font-face {
-    font-family: "Electro";
-    src: url("@/assets/Electrolize-Regular.ttf") format("truetype")
-  }
+  font-family: "Electro";
+  src: url("@/assets/Electrolize-Regular.ttf") format("truetype");
+}
 
-  .grad {
-    background: linear-gradient(to right, white, #81A2C1, white);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-  }
+.grad {
+  color: white;
+}
 
-  .yellow {
-    color: #EBCB8B;
-    font-style: italic;
-  }
+.yellow {
+  color: #EBCB8B;
+}
 
-  .img {
-    max-width: 300px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
+.img {
+  max-width: 300px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
 
-  nav {
-    margin-top: 15px;
-  }
+nav {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
 
-  p, nav, h1, h2 {
-    font-family: "Electro";
-  }
+p, nav, h1, h2 {
+  font-family: "Electro";
+}
 
 /* Default styles for all devices */
 p {
@@ -51,46 +45,80 @@ p {
 /* Media query for laptops and larger screens */
 @media (min-width: 768px) {
   p {
-    width: 500px; /* Set the width to 600px on laptops */
+      width: 500px; /* Set the width to 500px on laptops */
   }
 }
 
 /* Media query for mobile devices */
 @media (max-width: 767px) {
   p {
-    width: 300px; /* Set the width to 300px on mobile devices */
+      width: 300px; /* Set the width to 300px on mobile devices */
   }
 }
 
-  h1, h2 {
-    margin: 10px;
-  }
+h1, h2 {
+  margin: 10px;
+}
 
-  h1 {
-    font-size: 45px;
-    color: white;
-    margin-top: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background: linear-gradient(to right, #0F0225,  black, #0F0225);
-  }
+.heading {
+  font-size: 45px;
+  color: white;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: linear-gradient(to right, #0F0225, black, #0F0225);
+}
 
-  .link {
-    color: white;
-    transition: color 0.3s;
-  }
-  
-  .link:hover {
-    color: #EBCB8B;
-  }
+.link {
+  color: white;
+  transition: color 0.3s;
+}
 
-  @keyframes fade-in {
-    0% {
+.link:hover {
+  color: #EBCB8B;
+}
+
+@keyframes fade-in {
+  0% {
       opacity: 0;
       transform: translateY(20px);
-    }
-    100% {
+  }
+  100% {
       opacity: 1;
       transform: translateY(0);
-    }
   }
+}
+
+@import url("https://fonts.googleapis.com/css?family=Lobster&display=swap");
+
+/* Fallback if the operating system prefers reduced motion */
+@media (prefers-reduced-motion) {
+  .wrapper {
+      animation: scroll 800s linear infinite;
+  }
+}
+
+.wrapper {
+  animation: scroll 100s linear infinite;
+  background-image: url("@/assets/spacepattern3.jpg");
+  background-size: cover;
+  min-width: 75%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 1000px;
+  perspective-origin: 50% 50%;
+}
+
+@keyframes scroll {
+  100% {
+      background-position: 0px -400%;
+  }
+}
+
+@media (min-width: 670px) {
+  .title {
+      font-size: 5rem;
+  }
+}

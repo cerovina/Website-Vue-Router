@@ -1,7 +1,7 @@
 <template>
   <div class="contactWrap">
       <div class="contact">
-        <h1>Contact</h1>
+        <h1 class="heading">Contact</h1>
           </div>
     <section>
       <div class="end">
@@ -19,6 +19,41 @@
     </section>
   </div>
 </template>
+
+<script>
+export default {
+  name: 'HomeView',
+  mounted() {
+    this.glowTitle();
+  },
+  methods: {
+    glowTitle() {
+      const gradElements = document.querySelectorAll('.yellow');
+      const duration = 2000; // Adjust the duration as needed (in milliseconds)
+
+      gradElements.forEach(element => {
+        animate(element, Date.now());
+      });
+
+      function animate(element, startTime) {
+        function step() {
+          const currentTime = Date.now();
+          const elapsed = currentTime - startTime;
+
+          const progress = (elapsed % duration) / duration; // Ensure progress remains in the range [0, 1]
+
+          const opacity = 1 + 0.5 * Math.cos(progress * Math.PI * 2); // Cosine function for a slow glow effect
+          element.style.opacity = opacity;
+
+          requestAnimationFrame(step);
+        }
+
+        requestAnimationFrame(step);
+      }
+    },
+  },
+};
+</script>
 
   <style scoped>
   .contactWrap {
