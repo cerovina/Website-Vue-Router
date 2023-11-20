@@ -103,7 +103,7 @@ h1, h2 {
   background-image: url("@/assets/spacepattern3.jpg");
   background-size: cover;
   min-width: 75%;
-  width: 100%;
+  max-width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
