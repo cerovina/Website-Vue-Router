@@ -57,15 +57,6 @@ export default {
 
   <style scoped>
 
-@media (max-width: 767px) {
-  p {
-    width: 75%;
-  }
-
-  h1{
-    margin: auto;
-  }
-}
   .contactWrap {
   background-color: #0F0225;
 }
@@ -75,6 +66,21 @@ export default {
 
   .img2 {
     margin-top: 35px;
+    width: 10%;
+  }
+
+  @media (max-width: 767px) {
+  p {
+    width: 75%;
+  }
+
+  h1{
+    margin: auto;
+  }
+
+  .img2 {
+    margin-top: 35px;
     width: 30%;
   }
+}
   </style>
