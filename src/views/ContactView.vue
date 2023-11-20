@@ -56,6 +56,12 @@ export default {
 </script>
 
   <style scoped>
+
+@media (max-width: 767px) {
+  p {
+    width: 75%;
+  }
+}
   .contactWrap {
   background-color: #0F0225;
 }

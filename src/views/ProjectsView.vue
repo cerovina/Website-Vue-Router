@@ -72,6 +72,12 @@ export default {
 
 <style scoped>
 
+@media (max-width: 767px) {
+  p {
+    width: 75%;
+  }
+}
+
 .projectsWrap {
   background-color: #0F0225;
 }

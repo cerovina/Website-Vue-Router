@@ -67,6 +67,10 @@ export default {
   .aboutMe p {
     width: 75%;
   }
+
+  .title {
+    margin: auto;
+  }
 }
 
 .moving-title-container {
@@ -78,6 +82,7 @@ export default {
 }
 
 .dev {
+  margin-bottom: 15px;
   position: absolute;
   font-style: italic;
 }
