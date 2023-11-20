@@ -72,7 +72,6 @@ export default {
 }
 
 .dev {
-  margin-bottom: 15px;
   position: absolute;
   font-style: italic;
 }
