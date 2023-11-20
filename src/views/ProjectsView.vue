@@ -76,6 +76,33 @@ export default {
   p {
     width: 75%;
   }
+
+  h1{
+    margin: auto;
+  }
+
+  .img1 {
+  width: 75%;
+  height: auto;
+  padding: 5px;
+  border: 2px solid #81A2C1;
+  box-shadow: 0 0 10px #81A2C1;
+}
+
+.grid-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.grid-item {
+  flex-basis: calc(50% - 10px);
+  margin-top: -30px;
+  margin-bottom: 65px;
+}
 }
 
 .projectsWrap {
@@ -95,12 +122,11 @@ export default {
   justify-content: space-between;
   align-items: center;
   gap: 10px;
-  flex-wrap: wrap;
   text-align: center;
 }
 
 .grid-item {
-  flex-basis: calc(50% - 10px);
+  flex-basis: calc(30%);
   margin-top: -30px;
   margin-bottom: 65px;
 }

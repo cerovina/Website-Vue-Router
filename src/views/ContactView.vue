@@ -61,6 +61,10 @@ export default {
   p {
     width: 75%;
   }
+
+  h1{
+    margin: auto;
+  }
 }
   .contactWrap {
   background-color: #0F0225;
