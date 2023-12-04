@@ -6,6 +6,7 @@
       <router-link to="/contact">Contact</router-link>
     </nav>
     <router-view/>
+    <div id="mouse-trail"></div>
   </div>
 </template>
 

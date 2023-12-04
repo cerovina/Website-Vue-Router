@@ -1,7 +1,7 @@
 <template>
   <div class="container wrapper">
     <div class="home">
-      <img class="img" src="@/assets/ncnord.jpg"> 
+      <img class="img" src="@/assets/mypicCircle.png"> 
       <h1 class="title">Nikola Cerovina</h1>
       <div class="moving-title-container">
         <h2 ref="movingTitle" class="yellow dev grad">Front-End Developer</h2>
@@ -71,6 +71,13 @@ export default {
 
   .title {
     margin: auto;
+  }
+
+}
+
+@media (min-width: 767px) {
+  .home {
+    margin-right: 30px;
   }
 }
 
