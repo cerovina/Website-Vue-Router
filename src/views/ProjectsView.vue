@@ -20,9 +20,9 @@
             <a class="link" href="https://web-form-vue-lake.vercel.app/">Web Form (Vue)</a>
           </div>
           <div class="grid-item">
-            <img class="img1" src="@/assets/yetiii.png" alt="Weather Yeti">
+            <img class="img1" src="@/assets/hma.png" alt="Weapon Showcase">
             <br>
-            <a class="link" href="https://cerovina.github.io/Weather-Yeti/">Weather Yeti (React)</a>
+            <a class="link" href="https://hema-weapon-showcase.vercel.app/">Weapon Showcase (Vue)</a>
           </div>
           <div class="grid-item">
             <img class="img1" src="@/assets/bugs.png" alt="Space Shooter">
