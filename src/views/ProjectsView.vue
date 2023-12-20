@@ -20,9 +20,9 @@
             <a class="link" href="https://web-form-vue-lake.vercel.app/">Web Form (Vue)</a>
           </div>
           <div class="grid-item">
-            <img class="img1" src="@/assets/hma.png" alt="Weapon Showcase">
+            <img class="img1" src="@/assets/hema.jpg" alt="HEMA Weapons">
             <br>
-            <a class="link" href="https://hema-weapon-showcase.vercel.app/">Weapon Showcase (Vue)</a>
+            <a class="link" href="https://hema-weapon-showcase.vercel.app/">HEMA Weapons (Vue)</a>
           </div>
           <div class="grid-item">
             <img class="img1" src="@/assets/bugs.png" alt="Space Shooter">

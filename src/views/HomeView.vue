@@ -43,7 +43,7 @@ export default {
 
           const progress = (elapsed % duration) / duration; // Ensure progress remains in the range [0, 1]
 
-          const opacity = 1 + 0.5 * Math.cos(progress * Math.PI * 2); // Cosine function for a slow glow effect
+          const opacity = 1 + 0.5 * Math.cos(progress * Math.PI * 2); // Function for a slow glow effect
           element.style.opacity = opacity;
 
           requestAnimationFrame(step);
