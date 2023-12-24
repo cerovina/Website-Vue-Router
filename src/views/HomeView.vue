@@ -12,7 +12,7 @@
         <span class="yellow">></span> Proficient in HTML, CSS, and JavaScript. Experienced in Vue and React.
         <br>
         <br>
-        <span class="yellow">></span> Familiar with design tools like Figma and creative coding using p5.js.
+        <span class="yellow">></span> Familiar with multiple other technologies such as Node, C# and p5.
         <br>
         <br>
         <span class="yellow">></span> Passionate about web development and expanding my skills in the field.
