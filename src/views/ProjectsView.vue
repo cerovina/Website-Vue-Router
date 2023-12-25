@@ -17,7 +17,7 @@
           <div class="grid-item">
             <img class="img1" src="@/assets/taskStore.png" alt="Online Store">
             <br>
-            <a class="link" href="https://cerovina.github.io/Task-Online-Store/">Online Store</a>
+            <a class="link" href="https://cerovina.github.io/Task-Online-Store/">Web Store (Vanilla JS)</a>
           </div>
           <div class="grid-item">
             <img class="img1" src="@/assets/HemaPic.jpg" alt="HEMA Weapons">
