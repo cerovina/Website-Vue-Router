@@ -15,7 +15,7 @@
             <a class="link" href="https://cerovina.github.io/Task-Online-Store/">Online Store</a>
           </div>
           <div class="grid-item">
-            <img class="img1" src="@/assets/formpicture.png" alt="Web Form">
+            <img class="img1" src="@/assets/picForm2.png" alt="Web Form">
             <br>
             <a class="link" href="https://web-form-vue-lake.vercel.app/">Web Form (Vue)</a>
           </div>
