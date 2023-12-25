@@ -10,24 +10,19 @@
 
         <div class="grid-container">
           <div class="grid-item">
-            <img class="img1" src="@/assets/taskStore.png" alt="Online Store">
-            <br>
-            <a class="link" href="https://cerovina.github.io/Task-Online-Store/">Online Store</a>
-          </div>
-          <div class="grid-item">
             <img class="img1" src="@/assets/picForm2.png" alt="Web Form">
             <br>
             <a class="link" href="https://web-form-vue-lake.vercel.app/">Web Form (Vue)</a>
           </div>
           <div class="grid-item">
+            <img class="img1" src="@/assets/taskStore.png" alt="Online Store">
+            <br>
+            <a class="link" href="https://cerovina.github.io/Task-Online-Store/">Online Store</a>
+          </div>
+          <div class="grid-item">
             <img class="img1" src="@/assets/HemaPic.jpg" alt="HEMA Weapons">
             <br>
             <a class="link" href="https://hema-weapon-showcase.vercel.app/">HEMA Weapons (Vue)</a>
-          </div>
-          <div class="grid-item">
-            <img class="img1" src="@/assets/bugs.png" alt="Space Shooter">
-            <br>
-            <a class="link" href="https://cerovina.github.io/Grim-Shooter/">Grim Shooter (p5)</a>
           </div>
         </div>
         
@@ -85,17 +80,19 @@ export default {
 }
 
 .grid-container {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 60px;
+  margin-right: 60px;
+  justify-content: center;
   align-items: center;
-  gap: 10px;
   text-align: center;
 }
 
 .grid-item {
-  flex-basis: calc(30%);
-  margin-top: -30px;
-  margin-bottom: 65px;
+  grid-column: span 0;
+  margin-top: 10px;
+  margin-bottom: 10px; 
 }
 
 .reacttitle {
@@ -106,7 +103,7 @@ export default {
 
 .projectP {
   margin-top: 35px;
-  margin-bottom: 70px;
+  margin-bottom: 30px;
   font-family: "Electro";
   color: white;
   font-size: 25px;
@@ -130,19 +127,20 @@ export default {
   box-shadow: 0 0 10px #81A2C1;
 }
 
-  .grid-container {
-    display: flex;
-    justify-content: space-between;
+    .grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 60px;
+    margin-right: 60px;
+    justify-content: center; /* You can adjust this based on your layout needs */
     align-items: center;
-    gap: 10px;
-    flex-wrap: wrap;
     text-align: center;
   }
 
-  .grid-item {
-    flex-basis: calc(50% - 10px);
-    margin-top: -30px;
-    margin-bottom: 65px;
+    .grid-item {
+    grid-column: span 0;
+    margin-top: 10px;
+    margin-bottom: 10px; 
   }
 }
 
