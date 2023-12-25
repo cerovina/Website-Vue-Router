@@ -108,6 +108,7 @@ export default {
   color: white;
   font-size: 25px;
   font-style: italic;
+  padding: 10px;
 }
 
 @media (max-width: 767px) {
@@ -119,13 +120,13 @@ export default {
     margin: auto;
   }
 
-  .img1 {
-  width: 75%;
-  height: auto;
-  padding: 5px;
-  border: 2px solid #81A2C1;
-  box-shadow: 0 0 10px #81A2C1;
-}
+    .img1 {
+    width: 75%;
+    height: auto;
+    padding: 5px;
+    border: 2px solid #81A2C1;
+    box-shadow: 0 0 10px #81A2C1;
+  }
 
     .grid-container {
     display: grid;
