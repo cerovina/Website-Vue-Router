@@ -66,7 +66,7 @@ export default {
 
   .img2 {
     margin-top: 35px;
-    width: 10%;
+    width: 9.2%;
   }
 
   .i {
