@@ -10,19 +10,19 @@
 
         <div class="grid-container">
           <div class="grid-item">
-            <img class="img1" src="@/assets/picForm2.png" alt="Web Form">
-            <br>
-            <a class="link" href="https://web-form-vue-lake.vercel.app/">Web Form</a>
-          </div>
-          <div class="grid-item">
             <img class="img1" src="@/assets/taskStore.png" alt="Online Store">
             <br>
-            <a class="link" href="https://cerovina.github.io/Task-Online-Store/">Online Store</a>
+            <a class="link" href="https://cerovina.github.io/Task-Online-Store/">Web Form</a>
+          </div>
+          <div class="grid-item">
+            <img class="img1" src="@/assets/emailclient.png" alt="Email Client">
+            <br>
+            <a class="link" href="https://email-client-theta.vercel.app/">Email Client</a>
           </div>
           <div class="grid-item">
             <img class="img1" src="@/assets/HemaPic.jpg" alt="HEMA Weapons">
             <br>
-            <a class="link" href="https://hema-weapon-showcase.vercel.app/">Weapon Showcase</a>
+            <a class="link" href="https://hema-weapon-showcase.vercel.app/">HEMA App</a>
           </div>
         </div>
         
