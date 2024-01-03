@@ -17,7 +17,7 @@
           <div class="grid-item">
             <img class="img1" src="@/assets/pear2.png" alt="PearLink App">
             <br>
-            <a class="link" href="https://email-client-theta.vercel.app/">Email Client (Work in progress...)</a>
+            <a class="link" href="https://email-client-theta.vercel.app/">Email Client (work in progress...)</a>
           </div>
           <div class="grid-item">
             <img class="img1" src="@/assets/HemaPic.jpg" alt="HEMA Weapons">
