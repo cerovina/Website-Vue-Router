@@ -17,7 +17,7 @@
           <div class="grid-item">
             <img class="img1" src="@/assets/pear2.png" alt="PearLink App">
             <br>
-            <a class="link" href="https://email-client-theta.vercel.app/">Email Client (work in progress...)</a>
+            <a class="link" href="https://email-client-theta.vercel.app/">Email Client <span class="red">(in development...)</span></a>
           </div>
           <div class="grid-item">
             <img class="img1" src="@/assets/HemaPic.jpg" alt="HEMA Weapons">
@@ -66,6 +66,9 @@ export default {
 </script>
 
 <style scoped>
+.red {
+  color: red;
+}
 
 .projectsWrap {
   background-color: #0F0225;
@@ -144,5 +147,4 @@ export default {
     margin-bottom: 10px; 
   }
 }
-
 </style>
