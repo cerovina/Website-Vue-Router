@@ -72,7 +72,6 @@ export default {
   .title {
     margin: auto;
   }
-
 }
 
 @media (min-width: 767px) {
@@ -93,5 +92,9 @@ export default {
   margin-bottom: 15px;
   position: absolute;
   font-style: italic;
+}
+
+.aboutMe {
+  margin-bottom: 30px;
 }
 </style>
