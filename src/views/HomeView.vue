@@ -96,9 +96,10 @@ export default {
 
 .aboutMe {
   margin-bottom: 35px;
+  margin-top: -5px;
 }
 
 .img {
-  margin-top: -10px;
+  margin-top: -15px;
 }
 </style>
