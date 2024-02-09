@@ -1,7 +1,7 @@
 <template>
     <div class="projectsWrap">
       <div class="projects">
-        <h1 class="heading">PearLink - My Biggest Project</h1>
+        <h1 class="heading"><span class="green">PearLink</span> - My Biggest Project</h1>
       </div>
       <section id="portfolio">
         <div class="portfolio-item">
@@ -63,6 +63,10 @@ export default {
 </script>
 
 <style scoped>
+.green {
+  color: #26A95E;
+}
+
 .projectsWrap {
   background-color: #0F0225;
 }
