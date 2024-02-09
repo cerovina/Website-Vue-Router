@@ -1,31 +1,28 @@
 <template>
     <div class="projectsWrap">
       <div class="projects">
-        <h1 class="heading">My Projects</h1>
+        <h1 class="heading">PearLink - My Biggest Project</h1>
       </div>
       <section id="portfolio">
         <div class="portfolio-item">
-          <p class="projectP"><span class="yellow grad">Check out my</span> <a class="link" href="https://github.com/cerovina">GitHub</a></p>
+          <p class="projectP"><span class="yellow grad">Read about it on my</span> <a class="link" href="https://github.com/cerovina/Email-Client">GitHub</a></p>
         </div>
 
         <div class="grid-container">
           <div class="grid-item">
-            <img class="img1" src="@/assets/taskStore.png" alt="Online Store">
+            <img class="img1" src="@/assets/signinup.jpg" alt="Online Store">
             <br>
-            <a class="link" href="https://cerovina.github.io/Task-Online-Store/">Online Store</a>
           </div>
           <div class="grid-item">
-            <img class="img1" src="@/assets/piccli.png" alt="PearLink App">
+            <img class="img1" src="@/assets/personalize.jpg" alt="PearLink App">
             <br>
-            <a class="link" href="https://email-client-theta.vercel.app/">Email Client (in development...)</a>
           </div>
           <div class="grid-item">
-            <img class="img1" src="@/assets/HemaPic.jpg" alt="HEMA Weapons">
+            <img class="img1" src="@/assets/send.jpg" alt="HEMA Weapons">
             <br>
-            <a class="link" href="https://hema-weapon-showcase.vercel.app/">HEMA App</a>
           </div>
         </div>
-        
+        <a class="link" href="https://email-client-theta.vercel.app/">Try it out here (in development...)</a>
       </section>
     </div>
   </template>
@@ -92,12 +89,6 @@ export default {
   grid-column: span 0;
   margin-top: 10px;
   margin-bottom: 10px; 
-}
-
-.reacttitle {
-  color: #ffffff;
-  font-family: "Electro";
-  margin-top: -5px;
 }
 
 .projectP {
