@@ -95,6 +95,6 @@ export default {
 }
 
 .aboutMe {
-  margin-bottom: 30px;
+  margin-bottom: 35px;
 }
 </style>
