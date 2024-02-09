@@ -97,4 +97,8 @@ export default {
 .aboutMe {
   margin-bottom: 35px;
 }
+
+.img {
+  margin-top: -10px;
+}
 </style>
