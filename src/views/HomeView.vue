@@ -4,7 +4,7 @@
       <img class="img" src="@/assets/mypicCircle.png"> 
       <h1 class="title">Nikola Cerovina</h1>
       <div class="moving-title-container">
-        <h2 ref="movingTitle" class="yellow dev grad">Front-End Developer</h2>
+        <h2 ref="movingTitle" class="yellow dev grad">Vue.js Developer</h2>
       </div>
     </div>
     <div class="aboutMe">
