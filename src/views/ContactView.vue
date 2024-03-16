@@ -9,7 +9,7 @@
           📧<span class="yellow i"> Email:</span><br>cerovina1997@gmail.com
           <br>
           <br>
-          🌐<span class="yellow i"> LinkedIn:</span><br><a class="link" href="https://linkedin.com/in/cerovina">Let's connect!</a>
+          🌐<span class="yellow i"> LinkedIn:</span><br><a class="link" href="https://linkedin.com/in/cerovina">Connect with me</a>
           <br>       
         </p>
       </div>
