@@ -100,7 +100,8 @@ export default {
 
 .aboutMe {
   margin-bottom: 35px;
-  margin-top: -5px;
+  margin-top: -15px;
+  margin-left: -15px;
 }
 
 .img {
