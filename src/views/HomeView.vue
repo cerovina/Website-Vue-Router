@@ -65,7 +65,7 @@ export default {
 
 @media (max-width: 767px) {
   .aboutMe p {
-    width: 75%;
+    width: 100%;
     margin-top: 30px;
   }
 
@@ -78,11 +78,15 @@ export default {
   .home {
     margin-right: 30px;
   }
+  .aboutMe p {
+    width: 300px;
+    padding: 30px;
+  }
 }
 
 .moving-title-container {
   position: relative;
-  height: 50px; /* Adjust the height as needed */
+  height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;

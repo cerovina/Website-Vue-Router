@@ -60,8 +60,10 @@ export default {
   .contactWrap {
   background-color: #0F0225;
 }
-  .end {
+  .end p {
       margin-top: 35px;
+      width: 300px;
+      padding: 30px;
     }
 
   .img2 {

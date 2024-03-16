@@ -72,7 +72,7 @@ export default {
 }
 
 .img1 {
-  width: 65%;
+  width: 50%;
   height: auto;
   padding: 5px;
   border: 2px solid #81A2C1;
@@ -102,7 +102,8 @@ export default {
   color: white;
   font-size: 25px;
   font-style: italic;
-  padding: 10px;
+  padding: 30px;
+  width: 320px;
 }
 
 @media (max-width: 767px) {
