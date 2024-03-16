@@ -12,7 +12,7 @@
         <span class="yellow">></span> Hey, I'm Nikola 👋
         <br>
         <br>
-        <span class="yellow">></span> I build stuff with Vue 🤓
+        <span class="yellow">></span> I build apps with Vue 🤓
         <br>
         <br>
         <span class="yellow">></span> Check out my work 👾
