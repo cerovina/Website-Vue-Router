@@ -65,8 +65,9 @@ export default {
 
 @media (max-width: 767px) {
   .aboutMe p {
-    width: 100%;
+    width: 87%;
     margin-top: 30px;
+    padding: 30px;
   }
 
   .title {
