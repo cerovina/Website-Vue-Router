@@ -126,11 +126,15 @@ export default {
   }
 
     .grid-item {
-    grid-column: span 0;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin: auto;
+      grid-column: span 0;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      margin: auto;
   }
+
+    .portfolio-item {
+      margin: auto;
+    }
 
     .img1 {
       width: 100%;
