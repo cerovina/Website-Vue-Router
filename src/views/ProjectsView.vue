@@ -108,22 +108,22 @@ export default {
   }
 
     .img1 {
-    width: 75%;
-    height: auto;
-    padding: 5px;
-    border: 2px solid #81A2C1;
-    box-shadow: 0 0 10px #81A2C1;
+      width: 75%;
+      height: auto;
+      padding: 5px;
+      border: 2px solid #81A2C1;
+      box-shadow: 0 0 10px #81A2C1;
   }
 
     .main-grid {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    margin-left: 60px;
-    margin-right: 60px;
-    justify-content: center; /* You can adjust this based on your layout needs */
-    align-items: center;
-    text-align: center;
-    margin: auto;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      margin-left: 60px;
+      margin-right: 60px;
+      justify-content: center; 
+      align-items: center;
+      text-align: center;
+      margin: auto;
   }
 
     .grid-item {
@@ -132,6 +132,10 @@ export default {
       margin-bottom: 10px;
       margin: auto;
   }
+
+    .portfolio-item {
+      margin-top: -30px;
+    }
 
     .img1 {
       width: 100%;
