@@ -4,25 +4,15 @@
         <h1 class="heading"><span class="green">PearLink</span> - My Biggest Project</h1>
       </div>
       <section id="portfolio">
-        <div class="portfolio-item">
-          <p class="projectP"><span class="yellow grad">Read about it on my</span> <a class="link" href="https://github.com/cerovina/Email-Client">GitHub</a></p>
+        <div class="main-grid">
+          <div class="portfolio-item">
+            <p class="projectP"><span class="yellow grad">Read about it on my</span> <a class="link" href="https://github.com/cerovina/Email-Client">GitHub</a></p>
+            <a class="link" href="https://email-client-theta.vercel.app/">Try it out here (in development...)</a>
+          </div>
+            <div class="grid-item">
+              <img class="img1" src="@/assets/gif-ecli.gif" alt="Online Store">
+            </div>
         </div>
-
-        <div class="grid-container">
-          <div class="grid-item">
-            <img class="img1" src="@/assets/signinup.jpg" alt="Online Store">
-            <br>
-          </div>
-          <div class="grid-item">
-            <img class="img1" src="@/assets/personalize.jpg" alt="PearLink App">
-            <br>
-          </div>
-          <div class="grid-item">
-            <img class="img1" src="@/assets/send.jpg" alt="HEMA Weapons">
-            <br>
-          </div>
-        </div>
-        <a class="link" href="https://email-client-theta.vercel.app/">Try it out here (in development...)</a>
       </section>
     </div>
   </template>
@@ -72,27 +62,29 @@ export default {
 }
 
 .img1 {
-  width: 50%;
+  width: 400px;
   height: auto;
   padding: 5px;
   border: 2px solid #81A2C1;
   box-shadow: 0 0 10px #81A2C1;
 }
 
-.grid-container {
+.main-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  margin-left: 60px;
-  margin-right: 60px;
+  grid-template-columns: repeat(2, 1fr);
+  margin-left: 200px;
   justify-content: center;
   align-items: center;
   text-align: center;
+  width: 75%;
+  height: 470px;
 }
 
 .grid-item {
   grid-column: span 0;
   margin-top: 10px;
   margin-bottom: 10px; 
+  width: 50%
 }
 
 .projectP {
@@ -123,7 +115,7 @@ export default {
     box-shadow: 0 0 10px #81A2C1;
   }
 
-    .grid-container {
+    .main-grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     margin-left: 60px;
@@ -136,7 +128,12 @@ export default {
     .grid-item {
     grid-column: span 0;
     margin-top: 10px;
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
+    margin: auto;
   }
+
+    .img1 {
+      width: 100%;
+    }
 }
 </style>

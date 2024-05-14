@@ -77,7 +77,7 @@ export default {
 
 @media (min-width: 767px) {
   .home {
-    margin-right: 30px;
+    margin-right: 100px;
   }
   .aboutMe p {
     width: 300px;
