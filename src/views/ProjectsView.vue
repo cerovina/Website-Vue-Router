@@ -123,6 +123,7 @@ export default {
     justify-content: center; /* You can adjust this based on your layout needs */
     align-items: center;
     text-align: center;
+    margin: auto;
   }
 
     .grid-item {
@@ -131,10 +132,6 @@ export default {
       margin-bottom: 10px;
       margin: auto;
   }
-
-    .portfolio-item {
-      margin: auto;
-    }
 
     .img1 {
       width: 100%;
