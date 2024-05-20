@@ -4,7 +4,7 @@
       <img class="img" src="@/assets/mypicCircle.png"> 
       <h1 class="title">Nikola Cerovina</h1>
       <div class="moving-title-container">
-        <h2 ref="movingTitle" class="yellow dev grad">Vue.js Developer</h2>
+        <h2 ref="movingTitle" class="yellow dev grad">Frontend Developer</h2>
       </div>
     </div>
     <div class="aboutMe">
@@ -12,7 +12,7 @@
         <span class="yellow">></span> Hey, I'm Nikola 👋
         <br>
         <br>
-        <span class="yellow">></span> I build apps with Vue 🤓
+        <span class="yellow">></span> I build apps with JS 🤓
         <br>
         <br>
         <span class="yellow">></span> Check out my work 👾
