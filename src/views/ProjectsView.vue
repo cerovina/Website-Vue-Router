@@ -10,7 +10,7 @@
             <a class="link" href="https://email-client-theta.vercel.app/">Try it out here (in development...)</a>
           </div>
             <div class="grid-item">
-              <img class="img1" src="@/assets/gif-ecli.gif" alt="Online Store">
+              <img class="img1" src="@/assets/gifapp.gif" alt="Online Store">
             </div>
         </div>
       </section>
