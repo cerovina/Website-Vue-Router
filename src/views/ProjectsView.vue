@@ -7,7 +7,7 @@
         <div class="main-grid">
           <div class="portfolio-item">
             <p class="projectP"><span class="yellow grad">Read about it on my</span> <a class="link" href="https://github.com/cerovina/Email-Client">GitHub</a></p>
-            <a class="link" href="https://email-client-theta.vercel.app/">Try it out here (in development...)</a>
+            <p class="projectP">Try it out <a class="link" href="https://email-client-theta.vercel.app/">here</a></p>
           </div>
             <div class="grid-item">
               <img class="img1" src="@/assets/gifapp.gif" alt="Online Store">
@@ -96,6 +96,10 @@ export default {
   font-style: italic;
   padding: 30px;
   width: 320px;
+}
+
+.link {
+  font-family: "Electro";
 }
 
 @media (max-width: 767px) {
