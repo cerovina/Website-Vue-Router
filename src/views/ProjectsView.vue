@@ -7,7 +7,7 @@
         <div class="main-grid">
           <div class="portfolio-item">
             <p class="projectP"><span class="yellow grad">Read about it on my</span> <a class="link" href="https://github.com/cerovina/Email-Client">GitHub</a></p>
-            <p class="projectP">Try it out <a class="link" href="https://email-client-theta.vercel.app/">here</a></p>
+            <p class="projectP">Try it out <a class="link2" href="https://email-client-theta.vercel.app/">here</a></p>
           </div>
             <div class="grid-item">
               <img class="img1" src="@/assets/gifapp.gif" alt="Online Store">
@@ -98,8 +98,14 @@ export default {
   width: 320px;
 }
 
-.link {
+.link2 {
   font-family: "Electro";
+  color: #26A95E;
+  transition: color 0.3s;
+}
+
+.link2:hover {
+  color: #EBCB8B;
 }
 
 @media (max-width: 767px) {
@@ -111,38 +117,38 @@ export default {
     margin: auto;
   }
 
-    .img1 {
-      width: 75%;
-      height: auto;
-      padding: 5px;
-      border: 2px solid #81A2C1;
-      box-shadow: 0 0 10px #81A2C1;
+  .img1 {
+     width: 75%;
+     height: auto;
+     padding: 5px;
+     border: 2px solid #81A2C1;
+     box-shadow: 0 0 10px #81A2C1;
   }
 
-    .main-grid {
-      display: grid;
-      grid-template-columns: repeat(1, 1fr);
-      margin-left: 60px;
-      margin-right: 60px;
-      justify-content: center; 
-      align-items: center;
-      text-align: center;
-      margin: auto;
+  .main-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 60px;
+    margin-right: 60px;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    margin: auto;
   }
 
-    .grid-item {
-      grid-column: span 0;
-      margin-top: 10px;
-      margin-bottom: 10px;
-      margin: auto;
+  .grid-item {
+    grid-column: span 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin: auto;
   }
 
-    .portfolio-item {
-      margin-top: -30px;
-    }
+  .portfolio-item {
+    margin-top: -30px;
+  }
 
-    .img1 {
-      width: 100%;
-    }
+  .img1 {
+    width: 100%;
+  }
 }
 </style>
