@@ -53,6 +53,9 @@ export default {
 </script>
 
 <style scoped>
+.heading {
+  margin-bottom: 30px; 
+}
 .green {
   color: #26A95E;
 }
