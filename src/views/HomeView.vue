@@ -82,6 +82,7 @@ export default {
   .aboutMe p {
     width: 300px;
     padding: 30px;
+    margin-top: 50px;
   }
 }
 
