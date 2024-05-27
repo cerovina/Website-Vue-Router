@@ -10,7 +10,7 @@
             <p class="projectP">Try it out <a class="link2" href="https://email-client-theta.vercel.app/">here</a></p>
           </div>
             <div class="grid-item">
-              <img class="img1" src="@/assets/gifapp.gif" alt="Online Store">
+              <img class="img1" src="@/assets/gifthis.gif" alt="Project demo">
             </div>
         </div>
       </section>
