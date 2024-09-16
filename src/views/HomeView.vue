@@ -1,7 +1,7 @@
 <template>
   <div class="container wrapper">
     <div class="home">
-      <img class="img" src="@/assets/mypicCircle.png"> 
+      <img class="img" src="@/assets/slikanajnovija.png"> 
       <h1 class="title">Nikola Cerovina</h1>
       <div class="moving-title-container">
         <h2 ref="movingTitle" class="yellow dev grad">Frontend Developer</h2>

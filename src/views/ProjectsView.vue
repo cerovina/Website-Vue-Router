@@ -68,8 +68,8 @@ export default {
   width: 400px;
   height: auto;
   padding: 5px;
-  border: 2px solid #81A2C1;
-  box-shadow: 0 0 10px #81A2C1;
+  border: 2px solid #4682b4;
+  box-shadow: 0 0 10px #4682b4;
 }
 
 .main-grid {
@@ -124,8 +124,8 @@ export default {
      width: 75%;
      height: auto;
      padding: 5px;
-     border: 2px solid #81A2C1;
-     box-shadow: 0 0 10px #81A2C1;
+     border: 2px solid #4682b4;
+     box-shadow: 0 0 10px #4682b4;
   }
 
   .main-grid {
