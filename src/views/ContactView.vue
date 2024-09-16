@@ -14,7 +14,7 @@
         </p>
       </div>
       <div class="grid-item">
-            <img class="img2" src="@/assets/mailmail.png" alt="Mailbox Image">
+            <img class="img2" src="@/assets/mailmail.8394ae09plava.jpg" alt="Mailbox Image">
         </div>
     </section>
   </div>
