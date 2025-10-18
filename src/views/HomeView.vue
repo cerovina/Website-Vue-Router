@@ -9,13 +9,13 @@
     </div>
     <div class="aboutMe">
       <p>
-        <span class="yellow">></span> Hey, I'm Nikola 👋
+        <span class="yellow">></span> Hi, I'm Nikola
         <br>
         <br>
-        <span class="yellow">></span> I build apps with JS 🤓
+        <span class="yellow">></span> I build apps with JS
         <br>
         <br>
-        <span class="yellow">></span> Check out my work 👾
+        <span class="yellow">></span> Check out my work
       </p>
     </div>
   </div>
