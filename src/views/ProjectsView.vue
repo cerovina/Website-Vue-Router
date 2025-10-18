@@ -10,7 +10,7 @@
             <p class="projectP">Try it out <a class="link2" href="https://email-client-theta.vercel.app/">here</a></p>
           </div>
             <div class="grid-item">
-              <img class="img1" src="@/assets/gifthis.gif" alt="Project demo">
+              <img class="img1" src="@/assets/examplepicapp.png" alt="Project demo">
             </div>
         </div>
       </section>
@@ -76,6 +76,7 @@ export default {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   margin-left: 200px;
+  margin-top: -50px;
   justify-content: center;
   align-items: center;
   text-align: center;
