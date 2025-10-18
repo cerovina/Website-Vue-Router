@@ -9,13 +9,13 @@
     </div>
     <div class="aboutMe">
       <p>
-        <span class="yellow">></span> Hi, I'm Nikola
+        <span class="yellow">></span> Hi there, I'm Nikola 👋🏻
         <br>
         <br>
-        <span class="yellow">></span> I build apps with JS
+        <span class="yellow">></span> I build apps with JS 🦾 
         <br>
         <br>
-        <span class="yellow">></span> Check out my work
+        <span class="yellow">></span> Check out my work 🚀
       </p>
     </div>
   </div>
@@ -30,7 +30,7 @@ export default {
   methods: {
     glowTitle() {
       const gradElements = document.querySelectorAll('.yellow');
-      const duration = 2000; // Adjust the duration as needed (in milliseconds)
+      const duration = 2000; 
 
       gradElements.forEach(element => {
         animate(element, Date.now());
@@ -41,9 +41,9 @@ export default {
           const currentTime = Date.now();
           const elapsed = currentTime - startTime;
 
-          const progress = (elapsed % duration) / duration; // Ensure progress remains in the range [0, 1]
+          const progress = (elapsed % duration) / duration; 
 
-          const opacity = 1 + 0.5 * Math.cos(progress * Math.PI * 2); // Function for a slow glow effect
+          const opacity = 1 + 0.5 * Math.cos(progress * Math.PI * 2); 
           element.style.opacity = opacity;
 
           requestAnimationFrame(step);
